@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.tran-header {
+  background: gray; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#ffffff, #C5D2F4); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#ffffff, #C5D2F4); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#ffffff, #C5D2F4); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#ffffff, #C5D2F4); /* Standard syntax */
+  font-family: Helvetica, arial, sans-serif;
+  color: #333;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+.tran-amt-header {
+  background: gray; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#ffffff, #C5D2F4); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#ffffff, #C5D2F4); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#ffffff, #C5D2F4); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#ffffff, #C5D2F4); /* Standard syntax */
+  font-family: Helvetica, arial, sans-serif;
+  color: #333;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  max-width: 180px;
+  text-align: right;
+}
+
+.tran-list {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: small;
+  width: 880px;
+  color: #333;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  text-align: left;
+}
+.tran-list tbody tr:nth-child(odd) {
+   background-color: #eeeeee;
+}
+
+
+.tran-list td {
+  border-top: 1px solid #ccc;
+}
+
+.tran-name {
+  padding: 4px;
+  max-width: 480px;
+}
+.tran-category {
+  padding: 4px;
+  max-width: 180px;
+}
+.tran-amt {
+  padding: 4px;
+  max-width: 180px;
+  text-align: right;
+}
+
+.tran-icon {
+  width: 17px;
+  padding-left: 4px;
+}
+
+.tran-icon .fa-folder {
+  color: #508FCA;
+}
+
+.tran-description {
+  max-width: 442px;
+  padding-left: 10px;
+  overflow: hidden;
+}
+.age {
+  width: 125px;
+  text-align: right;
+  padding-right: 4px;
+}
